@@ -6,7 +6,7 @@ if (!outputDir) {
 }
 
 const line =
-  "I missed the deadline waiting on past me, who is still in the meeting where this sounded easy.";
+  "I missed the deadline because I was running through how I'd tell you I made it, and that run-through went long.";
 
 if (line.length < 1 || line.length > 200) {
   throw new Error("line must be 1 to 200 characters");
